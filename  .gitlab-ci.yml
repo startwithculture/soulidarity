@@ -3,7 +3,7 @@
 image: python:latest
 
 variables:
-  S3_BUCKET: "website-start-with-culture"
+  S3_BUCKET: "website-soulidarity"
   CF_DISTID: "EINSETZENAUSAWS"
 
 stages:
