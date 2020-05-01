@@ -4,7 +4,7 @@ image: python:latest
 
 variables:
   S3_BUCKET: "website-soulidarity"
-  CF_DISTID: "EINSETZENAUSAWS"
+  CF_DISTID: "E2JROK6FG4AOCK"
 
 stages:
   - deploy
