@@ -21,3 +21,4 @@ production:
     name: production
   only:
   - master
+
