@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SOULIDARITY-V1",
-    "currentPage": "about.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "modernm4",
       "title": "ModernM4",
@@ -793,79 +793,6 @@
           "_once": false,
           "_params": {},
           "_anchor": "header3-y"
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "overflow": "hidden",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".title__block": {
-              "margin-bottom": "40px"
-            },
-            ".mbr-section-subtitle": {
-              "letter-spacing": "1.5px",
-              "margin-bottom": "20px",
-              "color": "#c0c0c9"
-            },
-            ".mbr-section-title": {
-              "color": "#000000",
-              "span": {
-                "font-weight": "300"
-              }
-            },
-            ".image": {
-              "display": "flex",
-              "align-items": "center",
-              "justify-content": "center",
-              "background": "@cardColor",
-              "border-radius": "50%",
-              "box-shadow": "15px 30px 50px 0px rgba(233, 236, 241, 0.5)",
-              "margin": "0 auto 25px",
-              "transition": "all 0.4s ease-in-out",
-              "img": {
-                "height": "auto",
-                "width": "100px"
-              },
-              "&:hover": {
-                "transform": "scale(1.1)"
-              }
-            },
-            ".image175": {
-              "width": "175px",
-              "height": "175px"
-            },
-            ".image120": {
-              "width": "120px",
-              "height": "120px"
-            },
-            ".image150": {
-              "width": "150px",
-              "height": "150px"
-            },
-            ".image140": {
-              "width": "140px",
-              "height": "140px"
-            },
-            ".image200": {
-              "width": "200px",
-              "height": "200px"
-            }
-          },
-          "_name": "clients2",
-          "_customHTML": "<section group=\"Clients\" class=\"clients2\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n  <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n      <select name=\"imageCount\" title=\"Count Image\">\n          <option value=\"1\">1</option>\n          <option value=\"2\" selected>2</option>\n          <option value=\"3\">3</option>\n          <option value=\"4\">4</option>\n          <option value=\"5\">5</option>\n          <option value=\"6\">6</option>\n          <option value=\"7\">7</option>\n          <option value=\"8\">8</option>\n          <option value=\"9\">9</option>\n      </select>\n      <input type=\"color\" title=\"Card Color\" value=\"#ffffff\" name=\"cardColor\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background/backgraund__trend.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n  <!-- End block parameters -->\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-lg-12 title__block\" mbr-if=\"showTitle || showSubtitle\">\n        <h4 class=\"mbr-section-subtitle mbr-medium mbr-fonts-style\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">Thank you to</h4>\n           <h3 class=\"mbr-section-title mbr-medium mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">OUR PARTNERS</h3>\n        </div>\n        \n          <div class=\"col-xl-3 col-lg-3 col-md-4 col-6\">\n              <div class=\"image175 image\">\n                <a href=\"http://www.songlines.co.uk\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/songlines-mag-cmyk.png\" class=\"mbr-temp\" alt title></a> \n              </div>\n        </div>\n          <div class=\"col-xl-2 col-lg-2 col-md-4 col-6\" mbr-if=\"imageCount > 1\">\n           <div class=\"image120 image\">\n                <a href=\"http://wan.africa\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/iamwan.jpg\" class=\"mbr-temp\" alt title></a> \n              </div>\n        </div>\n            <div class=\"col-xl-3 col-lg-3 col-md-4 col-6\" mbr-if=\"imageCount > 2\">\n            <div class=\"image175 image\">\n                <img src=\"../_images/clients/3.png\" class=\"mbr-temp\" alt title> \n              </div>\n        </div>\n            <div class=\"col-xl-2 col-lg-2 col-md-4 col-6\" mbr-if=\"imageCount > 3\">\n            <div class=\"image150 image\">\n                <img src=\"../_images/clients/4.png\" class=\"mbr-temp\" alt title> \n              </div>\n        </div>\n      <div class=\"col-xl-2 col-lg-2 col-md-4 col-6\" mbr-if=\"imageCount > 4\">\n            <div class=\"image175 image\">\n                <img src=\"../_images/clients/5.png\" class=\"mbr-temp\" alt title> \n          </div>\n        </div>\n        <div class=\"col-xl-4 col-lg-4 col-md-4 col-6\" mbr-if=\"imageCount > 5\">\n            <div class=\"image140 image\">\n                <img src=\"../_images/clients/2.png\" class=\"mbr-temp\" alt title> \n          </div>\n        </div>\n        <div class=\"col-xl-2 col-lg-2 col-md-4 col-6\" mbr-if=\"imageCount > 6\">\n            <div class=\"image200 image\">\n                <img src=\"../_images/clients/5.png\" class=\"mbr-temp\" alt title> \n          </div>\n        </div>\n        <div class=\"col-xl-3 col-lg-3 col-md-4 col-6\" mbr-if=\"imageCount > 7\">\n            <div class=\"image140 image\">\n                <img src=\"../_images/clients/2.png\" class=\"mbr-temp\" alt title> \n          </div>\n        </div>\n        <div class=\"col-xl-3 col-lg-3 col-md-4 col-6\" mbr-if=\"imageCount > 8\">\n            <div class=\"image175 image\">\n                <img src=\"../_images/clients/1.png\" class=\"mbr-temp\" alt title> \n          </div>\n        </div>\n      </div>\n      </div>\n\n</section>",
-          "_cid": "rYLvFg2QW8",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "clients2-1t"
         },
         {
           "alias": "mobirise4-blocks/components",
