@@ -2578,7 +2578,7 @@ blockquote {
 }
 .cid-rYGJ3DmIXq .mbr-text,
 .cid-rYGJ3DmIXq .mbr-section-btn {
-  color: #6a6c72;
+  color: #000000;
 }
 .cid-rYNOg1nnEP {
   padding-top: 45px;
@@ -2645,13 +2645,68 @@ blockquote {
     border-right: 2px dotted #e2e2e2;
   }
 }
+.cid-rYNB80ZeVB .mbr-text-left {
+  color: #000000;
+}
+.cid-rYNB80ZeVB .mbr-text-right {
+  color: #000000;
+}
+.cid-rYNB80ZeVB .article-title-left {
+  color: #000000;
+}
+.cid-rYNB80ZeVB .article-title-right {
+  color: #000000;
+}
+.cid-rYNB80ZeVB H2 {
+  color: #000000;
+}
+.cid-rYQvYBmepb {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rYQvYBmepb .counter-container {
+  color: #464646;
+}
+.cid-rYQvYBmepb .counter-container div {
+  margin-bottom: 1rem;
+  padding-left: 5rem;
+}
+.cid-rYQvYBmepb .counter-container li {
+  list-style: none;
+  padding-left: 6rem;
+  position: relative;
+}
+.cid-rYQvYBmepb .counter-container .counter {
+  text-overflow: clip;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 40px;
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  margin: 0 0 5px;
+  line-height: 40px;
+  transition: all .2s;
+  width: 60px;
+  height: 40px;
+}
+.cid-rYQvYBmepb H3 {
+  color: #000000;
+}
+.cid-rYQvYBmepb H4 {
+  color: #000000;
+}
+.cid-rYQvYBmepb P {
+  color: #000000;
+}
 .cid-rYNDAzAcvt {
   padding-top: 15px;
   padding-bottom: 75px;
   background-color: #ffffff;
 }
 .cid-rYNDAzAcvt .mbr-section-subtitle {
-  color: #767676;
+  color: #000000;
   font-weight: 300;
 }
 .cid-rYNDAzAcvt .number-wrap {
@@ -2718,6 +2773,9 @@ blockquote {
   .cid-rYNDAzAcvt .period {
     font-size: 0.8rem;
   }
+}
+.cid-rYNDAzAcvt H2 {
+  color: #000000;
 }
 .cid-rYGkhTptkx {
   padding-top: 45px;
