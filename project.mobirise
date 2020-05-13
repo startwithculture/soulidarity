@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SOULIDARITY-V1",
-    "currentPage": "application.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "modernm4",
       "title": "ModernM4",
@@ -89,7 +89,7 @@
       "text": "By continuing you agree to our <a href='terms.html'>Terms & Conditions</a> and <a href='policy.html'>Privacy Policy</a>."
     },
     "pwa-switcher": false,
-    "uniqCompNum": 89,
+    "uniqCompNum": 93,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "PWA": {
@@ -795,6 +795,72 @@
           "_params": {}
         },
         {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "!isAMP",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".row": {
+              "justify-content": "space-between",
+              "padding": "0 1rem"
+            },
+            ".container": {
+              "max-width": "1500px"
+            },
+            ".content-wrapper": {
+              "max-width": "800px"
+            },
+            "@media (min-width: 767px)": {
+              ".container": {
+                "padding": "0 4rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#efeeee"
+            },
+            ".btn": {
+              "width": "-webkit-fill-available",
+              "margin": "0.4rem!important",
+              "justify-content": "space-between",
+              ".mbr-iconfont": {
+                "order": "2"
+              }
+            },
+            ".pt-5": {
+              "padding-top": "4rem!important"
+            },
+            "@media (max-width: 922px)": {
+              ".align-left": {
+                "text-align": "center"
+              },
+              ".row": {
+                "justify-content": "center",
+                "padding": "0rem"
+              }
+            },
+            "H1": {
+              "color": "#e4fb52"
+            }
+          },
+          "_name": "extContent5",
+          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#333333\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-7 col-md-12\">\n                <div class=\"content-wrapper align-left\">\n                    <h3 class=\"mbr-section-subtitle mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\"><b>Economics </b>/ Distribution</h3>\n                    <h1 class=\"mbr-section-title mbr-semibold mbr-white pb-4 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">The #SOULIDARITY fund!</h1>\n                </div>\n            </div>\n            <div class=\"col-lg-4 col-md-6 col-12\">\n                <div class=\"content-wrapper align-left\">\n                    <p class=\"mbr-text mbr-white mbr-regular mbr-white mbr-fonts-style pt-4\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Together we create a relief fund for African musicians who have lost all their international tour income due to COVID-19.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-success\" href=\"faq.html\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>More infos for artists or sponsors&nbsp;</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rYSfCs1eBY",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "extContent5-2k"
+        },
+        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
@@ -859,7 +925,7 @@
             }
           },
           "_name": "clients2",
-          "_customHTML": "<section group=\"Clients\" class=\"clients2\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n  <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked=\"\">\n      <select name=\"imageCount\" title=\"Count Image\">\n          <option value=\"1\">1</option>\n          <option value=\"2\" selected=\"\">2</option>\n          <option value=\"3\">3</option>\n          <option value=\"4\">4</option>\n          <option value=\"5\">5</option>\n          <option value=\"6\">6</option>\n          <option value=\"7\">7</option>\n          <option value=\"8\">8</option>\n          <option value=\"9\">9</option>\n      </select>\n      <input type=\"color\" title=\"Card Color\" value=\"#ffffff\" name=\"cardColor\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/backgraund__trend.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n  <!-- End block parameters -->\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-lg-12 title__block\" mbr-if=\"showTitle || showSubtitle\">\n        <h4 class=\"mbr-section-subtitle mbr-medium mbr-fonts-style\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">Thanks to our</h4>\n           <h3 class=\"mbr-section-title mbr-medium mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">PARTNERS</h3>\n        </div>\n        \n          <div class=\"col-xl-3 col-lg-3 col-md-4 col-6\">\n              <div class=\"image175 image\">\n                <a href=\"http://www.songlines.co.uk\"><img src=\"@PROJECT_PATH@/assets/images/songlines-mag.png\" class=\"mbr-temp\" alt=\"\" title=\"\"></a> \n              </div>\n        </div>\n          <div class=\"col-xl-2 col-lg-2 col-md-4 col-6\" mbr-if=\"imageCount > 1\">\n           <div class=\"image120 image\">\n                <a href=\"http://wan.africa\"><img src=\"@PROJECT_PATH@/assets/images/iamwan-1.jpg\" class=\"mbr-temp\" alt=\"\" title=\"\"></a> \n              </div>\n        </div>\n            <div class=\"col-xl-3 col-lg-3 col-md-4 col-6\" mbr-if=\"imageCount > 2\">\n            <div class=\"image175 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/3.png\" class=\"mbr-temp\" alt=\"\" title=\"\"> \n              </div>\n        </div>\n            <div class=\"col-xl-2 col-lg-2 col-md-4 col-6\" mbr-if=\"imageCount > 3\">\n            <div class=\"image150 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/4.png\" class=\"mbr-temp\" alt=\"\" title=\"\"> \n              </div>\n        </div>\n      <div class=\"col-xl-2 col-lg-2 col-md-4 col-6\" mbr-if=\"imageCount > 4\">\n            <div class=\"image175 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/5.png\" class=\"mbr-temp\" alt=\"\" title=\"\"> \n          </div>\n        </div>\n        <div class=\"col-xl-4 col-lg-4 col-md-4 col-6\" mbr-if=\"imageCount > 5\">\n            <div class=\"image140 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/2.png\" class=\"mbr-temp\" alt=\"\" title=\"\"> \n          </div>\n        </div>\n        <div class=\"col-xl-2 col-lg-2 col-md-4 col-6\" mbr-if=\"imageCount > 6\">\n            <div class=\"image200 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/5.png\" class=\"mbr-temp\" alt=\"\" title=\"\"> \n          </div>\n        </div>\n        <div class=\"col-xl-3 col-lg-3 col-md-4 col-6\" mbr-if=\"imageCount > 7\">\n            <div class=\"image140 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/2.png\" class=\"mbr-temp\" alt=\"\" title=\"\"> \n          </div>\n        </div>\n        <div class=\"col-xl-3 col-lg-3 col-md-4 col-6\" mbr-if=\"imageCount > 8\">\n            <div class=\"image175 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/1.png\" class=\"mbr-temp\" alt=\"\" title=\"\"> \n          </div>\n        </div>\n      </div>\n      </div>\n\n</section>",
+          "_customHTML": "<section group=\"Clients\" class=\"clients2\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n  <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n      <select name=\"imageCount\" title=\"Count Image\">\n          <option value=\"1\">1</option>\n          <option value=\"2\" selected>2</option>\n          <option value=\"3\">3</option>\n          <option value=\"4\">4</option>\n          <option value=\"5\">5</option>\n          <option value=\"6\">6</option>\n          <option value=\"7\">7</option>\n          <option value=\"8\">8</option>\n          <option value=\"9\">9</option>\n      </select>\n      <input type=\"color\" title=\"Card Color\" value=\"#ffffff\" name=\"cardColor\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/backgraund__trend.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n  <!-- End block parameters -->\n  <div class=\"container\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-lg-12 title__block\" mbr-if=\"showTitle || showSubtitle\">\n        <h4 class=\"mbr-section-subtitle mbr-medium mbr-fonts-style\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">Thanks to our</h4>\n           <h3 class=\"mbr-section-title mbr-medium mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">PARTNERS</h3>\n        </div>\n        \n          <div class=\"col-xl-3 col-lg-3 col-md-4 col-6\">\n              <div class=\"image175 image\">\n                <a href=\"http://www.songlines.co.uk\"><img src=\"@PROJECT_PATH@/assets/images/songlines-mag.png\" class=\"mbr-temp\" alt title></a> \n              </div>\n        </div>\n          <div class=\"col-xl-2 col-lg-2 col-md-4 col-6\" mbr-if=\"imageCount > 1\">\n           <div class=\"image120 image\">\n                <a href=\"http://wan.africa\"><img src=\"@PROJECT_PATH@/assets/images/iamwan-1.jpg\" class=\"mbr-temp\" alt title></a> \n              </div>\n        </div>\n            <div class=\"col-xl-3 col-lg-3 col-md-4 col-6\" mbr-if=\"imageCount > 2\">\n            <div class=\"image175 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/3.png\" class=\"mbr-temp\" alt title> \n              </div>\n        </div>\n            <div class=\"col-xl-2 col-lg-2 col-md-4 col-6\" mbr-if=\"imageCount > 3\">\n            <div class=\"image150 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/4.png\" class=\"mbr-temp\" alt title> \n              </div>\n        </div>\n      <div class=\"col-xl-2 col-lg-2 col-md-4 col-6\" mbr-if=\"imageCount > 4\">\n            <div class=\"image175 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/5.png\" class=\"mbr-temp\" alt title> \n          </div>\n        </div>\n        <div class=\"col-xl-4 col-lg-4 col-md-4 col-6\" mbr-if=\"imageCount > 5\">\n            <div class=\"image140 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/2.png\" class=\"mbr-temp\" alt title> \n          </div>\n        </div>\n        <div class=\"col-xl-2 col-lg-2 col-md-4 col-6\" mbr-if=\"imageCount > 6\">\n            <div class=\"image200 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/5.png\" class=\"mbr-temp\" alt title> \n          </div>\n        </div>\n        <div class=\"col-xl-3 col-lg-3 col-md-4 col-6\" mbr-if=\"imageCount > 7\">\n            <div class=\"image140 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/2.png\" class=\"mbr-temp\" alt title> \n          </div>\n        </div>\n        <div class=\"col-xl-3 col-lg-3 col-md-4 col-6\" mbr-if=\"imageCount > 8\">\n            <div class=\"image175 image\">\n                <img src=\"@PROJECT_PATH@/assets/images/1.png\" class=\"mbr-temp\" alt title> \n          </div>\n        </div>\n      </div>\n      </div>\n\n</section>",
           "_anchor": "clients2-25",
           "_isUserblock": true,
           "_sourceTheme": "modernm4",

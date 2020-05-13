@@ -1200,6 +1200,53 @@ blockquote {
 .cid-rYF2rAp13L .typed-text {
   color: #000000;
 }
+.cid-rYSfCs1eBY {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #000000;
+}
+.cid-rYSfCs1eBY .row {
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+.cid-rYSfCs1eBY .container {
+  max-width: 1500px;
+}
+.cid-rYSfCs1eBY .content-wrapper {
+  max-width: 800px;
+}
+@media (min-width: 767px) {
+  .cid-rYSfCs1eBY .container {
+    padding: 0 4rem;
+  }
+}
+.cid-rYSfCs1eBY .mbr-text,
+.cid-rYSfCs1eBY .mbr-section-btn {
+  color: #efeeee;
+}
+.cid-rYSfCs1eBY .btn {
+  width: -webkit-fill-available;
+  margin: 0.4rem!important;
+  justify-content: space-between;
+}
+.cid-rYSfCs1eBY .btn .mbr-iconfont {
+  order: 2;
+}
+.cid-rYSfCs1eBY .pt-5 {
+  padding-top: 4rem!important;
+}
+@media (max-width: 922px) {
+  .cid-rYSfCs1eBY .align-left {
+    text-align: center;
+  }
+  .cid-rYSfCs1eBY .row {
+    justify-content: center;
+    padding: 0rem;
+  }
+}
+.cid-rYSfCs1eBY H1 {
+  color: #e4fb52;
+}
 .cid-rYMEEjZYke {
   padding-top: 5rem;
   padding-bottom: 5rem;
