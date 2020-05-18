@@ -61,7 +61,7 @@
         "url": "https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i"
       }
     ],
-    "favicon": "@PROJECT_PATH@/assets/images/soulidarity-hand-yellow-1.png",
+    "favicon": "@PROJECT_PATH@/assets/images/soulidarity-hand-yellow-2.png",
     "noImageResize": true,
     "cssOptimize": true,
     "lazyLoad": false,
@@ -101,10 +101,11 @@
       "settings": {
         "main": true,
         "title": "#SOULIDARITY for African Musicians!",
-        "meta_descr": ".... coming soon ...",
+        "meta_descr": "The music must go on: Together we create a relief fund for African musicians who have lost all their international tour income due to COVID-19.",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/10.jpg"
       },
       "components": [
         {
@@ -3943,7 +3944,8 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 1
+        "order": 1,
+        "meta_image": "@PROJECT_PATH@/assets/images/10.jpg"
       },
       "components": [
         {
@@ -6944,7 +6946,8 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 4
+        "order": 4,
+        "meta_image": "@PROJECT_PATH@/assets/images/10.jpg"
       },
       "components": [
         {
