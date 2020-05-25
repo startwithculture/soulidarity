@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SOULIDARITY-V2",
-    "currentPage": "about.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "modernm4",
       "title": "ModernM4",
@@ -94,7 +94,8 @@
     "screenshot": "screenshot.png",
     "PWA": {
       "enabled": false
-    }
+    },
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-167562633-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-167562633-1');\n</script>"
   },
   "pages": {
     "index.html": {
