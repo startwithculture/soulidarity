@@ -909,44 +909,6 @@
           "_params": {}
         },
         {
-          "_params": {
-            "token": "34838819650.727bfe1.a7bf2f2ccad84affbf3dae45d5c1f6fb",
-            "showTitle": true,
-            "layoutGridRadio": true,
-            "imagesPerRowGrid": "5",
-            "rows": "3",
-            "showMoreButton": true,
-            "layoutSliderRadio": false,
-            "imagesPerRowSlider": 4,
-            "spacing": 5,
-            "fullWidth": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColorRadio": true,
-            "bgColor": "#fafafa",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
-            "overlay": false,
-            "overlayColor": "#efefef",
-            "overlayOpacity": 0.6
-          },
-          "title": "Follow<a href=\"https://www.instagram.com/startwithcultureorg/\" target=\"_blank\" class=\"text-info\"> @ Instagram</a>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>",
-          "display2": "display-2",
-          "display4": "display-4",
-          "alias": "instagram-feed",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-4j",
-          "_styles": {
-            ".inst__title": {
-              "color": "#1a1a1a"
-            }
-          }
-        },
-        {
           "alias": "mobirise4-blocks/components",
           "_isSecondary": true,
           "typeCompatible": "!isAMP",
