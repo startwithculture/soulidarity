@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SOULIDARITY-V8-translation-ready",
-    "currentPage": "campagne-de-collecte-de-fonds.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "modernm4",
       "title": "ModernM4",
@@ -11116,7 +11116,7 @@
             }
           },
           "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <!-- <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#e4fb52\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradientOverlay\">\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#000000\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\"></h2>\n    <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n        <div class=\"line\"></div>\n    </div>\n<!--     <div mbr-class=\"{'container': !fullWidth}\"> -->\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"0\" mbr-gallery-show-text mbr-gallery-show-filter mbr-gallery-show-bullets></div>\n   <!--  </div> -->\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <!-- <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#e4fb52\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradientOverlay\">\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#000000\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\"></h2>\n    <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n        <div class=\"line\"></div>\n    </div>\n<!--     <div mbr-class=\"{'container': !fullWidth}\"> -->\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text mbr-gallery-show-filter mbr-gallery-show-bullets></div>\n   <!--  </div> -->\n</section>",
           "_anchor": "gallery1-8c",
           "_isUserblock": true,
           "_sourceTheme": "storem4",
@@ -11171,6 +11171,19 @@
                 "active": false
               },
               {
+                "tags": "Zimbabwe",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020825-1439522020-8-5-15-20-22.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/_LaMWFrxaHQ",
+                "image": "@PROJECT_PATH@/assets/images/nobuntu-1.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/nobuntu-1-800x450.jpeg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Nobuntu - Zimbabwe",
+                "active": true,
+                "title": ""
+              },
+              {
                 "tags": "Uganda",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-32-29.jpg",
                 "playVideo": true,
@@ -11180,6 +11193,19 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Sandra Nankoma - Uganda",
+                "active": false,
+                "title": ""
+              },
+              {
+                "tags": "Tanzania",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020825-1439522020-8-5-15-19-41.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/RQgHGkFEcYc",
+                "image": "@PROJECT_PATH@/assets/images/siti-the-band11-1.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/siti-the-band11-1-800x450.jpeg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Siti &amp; The Band - Tanzania",
                 "active": false,
                 "title": ""
               },
@@ -11379,19 +11405,6 @@
                 "title": ""
               },
               {
-                "tags": "Zimbabwe",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
-                "playVideo": false,
-                "videoUrl": "https://youtu.be/5dBrUupkBVg",
-                "image": "@PROJECT_PATH@/assets/images/nobuntu-1.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/nobuntu-1-800x450.jpeg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Nobuntu - Zimbabwe",
-                "active": false,
-                "title": ""
-              },
-              {
                 "tags": "Mauritania",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
                 "playVideo": false,
@@ -11470,19 +11483,6 @@
                 "title": ""
               },
               {
-                "tags": "Tanzania",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
-                "playVideo": false,
-                "videoUrl": "https://youtu.be/5dBrUupkBVg",
-                "image": "@PROJECT_PATH@/assets/images/siti-the-band11-1.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/siti-the-band11-1-800x450.jpeg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Siti &amp; The Band - Tanzania",
-                "active": false,
-                "title": ""
-              },
-              {
                 "tags": "Mali",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
                 "playVideo": false,
@@ -11544,7 +11544,7 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Carlou D - Senegal",
-                "active": true,
+                "active": false,
                 "title": ""
               }
             ]
