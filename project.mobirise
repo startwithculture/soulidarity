@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "SOULIDARITY-V9-raisenow",
-    "currentPage": "the-artists.html",
+    "name": "SOULIDARITY-V8-translation-ready",
+    "currentPage": "campagne-de-collecte-de-fonds.html",
     "theme": {
       "name": "modernm4",
       "title": "ModernM4",
@@ -89,7 +89,7 @@
       "text": "By continuing you agree to our <a href='terms.html'>Terms & Conditions</a> and <a href='policy.html'>Privacy Policy</a>."
     },
     "pwa-switcher": false,
-    "uniqCompNum": 345,
+    "uniqCompNum": 337,
     "versionPublish": "5.0.29",
     "screenshot": "screenshot.png",
     "PWA": {
@@ -711,23 +711,6 @@
           "_params": {}
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n\n\n  <title>Tamaro Demo</title>\n  <style>\n    .dds-widget-container {\n      width: 100%;\n      max-width: 37.5rem;\n      margin: 0 auto;\n    }\n    #tamaro-widget.tamaro-widget {\n      padding: 2rem;\n    }\n    #tamaro-widget.tamaro-widget .error-widget,\n    body.tamaro-widget-overlay-inner.tamaro-widget-overlay-shown #tamaro-widget.tamaro-widget .overlay-block-wrapper {\n      margin: -2rem;\n    }\n\n\n<div>\n    <div class=\"rnw-widget-container\"></div>\n[JS_CODE_0] \n[JS_CODE_1]\n</div></style>",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "raise-now",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script src=\"https://tamaro.raisenow.com/start-77de/latest/widget.js\"></script>",
-            "<script>\n    window.rnw.tamaro.runWidget('.rnw-widget-container', {language: 'en'})\n</script>"
-          ]
-        },
-        {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -1087,6 +1070,19 @@
                 "customStyle1": "display-7",
                 "caption": "Music makes the world a better place! - Sauti Za Busara Festival for #SOULIDARITY<br>",
                 "active": false
+              },
+              {
+                "tags": "Festivals",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020815-1357262020-8-2-13-58-53.jpg",
+                "playVideo": false,
+                "videoUrl": "https://youtu.be/0vLGNwO5rTE",
+                "image": "@PROJECT_PATH@/assets/images/coming-soon-3.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/coming-soon-3-400x225.jpeg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Africa Oyé Festival for #SOULIDARITY<br>",
+                "active": true,
+                "title": ""
               }
             ]
           }
@@ -1293,23 +1289,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div class=\"rnw-widget-container\"></div>\n[JS_CODE_0] \n[JS_CODE_1]",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-9e",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script src=\"https://tamaro.raisenow.com/start-77de/latest/widget.js\"></script>",
-            "<script>\n    window.rnw.tamaro.runWidget('.rnw-widget-container', {language: 'en'})\n</script>"
-          ]
         },
         {
           "_name": "extAccordion5",
@@ -2405,7 +2384,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 9
+        "order": 8
       },
       "components": [
         {
@@ -3130,7 +3109,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 11
+        "order": 10
       },
       "components": [
         {
@@ -3858,7 +3837,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 12
+        "order": 11
       },
       "components": [
         {
@@ -4652,7 +4631,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 10
+        "order": 9
       },
       "components": [
         {
@@ -6807,7 +6786,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 8,
+        "order": 7,
         "meta_image": "@PROJECT_PATH@/assets/images/10.jpg"
       },
       "components": [
@@ -7694,7 +7673,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 5,
+        "order": 4,
         "meta_image": "@PROJECT_PATH@/assets/images/10.jpg"
       },
       "components": [
@@ -8500,7 +8479,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/10.jpg",
-        "order": 7
+        "order": 6
       },
       "components": [
         {
@@ -9466,7 +9445,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/10.jpg",
-        "order": 6
+        "order": 5
       },
       "components": [
         {
@@ -10388,7 +10367,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 4,
+        "order": 3,
         "meta_image": "@PROJECT_PATH@/assets/images/10.jpg"
       },
       "components": [
@@ -11137,7 +11116,7 @@
             }
           },
           "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <!-- <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#e4fb52\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradientOverlay\">\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#000000\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\"></h2>\n    <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n        <div class=\"line\"></div>\n    </div>\n<!--     <div mbr-class=\"{'container': !fullWidth}\"> -->\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text mbr-gallery-show-filter mbr-gallery-show-bullets></div>\n   <!--  </div> -->\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <!-- <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#e4fb52\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradientOverlay\">\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#000000\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\"></h2>\n    <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n        <div class=\"line\"></div>\n    </div>\n<!--     <div mbr-class=\"{'container': !fullWidth}\"> -->\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"0\" mbr-gallery-show-text mbr-gallery-show-filter mbr-gallery-show-bullets></div>\n   <!--  </div> -->\n</section>",
           "_anchor": "gallery1-8c",
           "_isUserblock": true,
           "_sourceTheme": "storem4",
@@ -11192,19 +11171,6 @@
                 "active": false
               },
               {
-                "tags": "Zimbabwe",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020825-1439522020-8-5-14-41-41.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/_LaMWFrxaHQ",
-                "image": "@PROJECT_PATH@/assets/images/nobuntu-1.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/nobuntu-1-800x450.jpeg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Nobuntu - Zimbabwe",
-                "active": false,
-                "title": ""
-              },
-              {
                 "tags": "Uganda",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-32-29.jpg",
                 "playVideo": true,
@@ -11215,19 +11181,6 @@
                 "customStyle1": "display-7",
                 "caption": "Sandra Nankoma - Uganda",
                 "active": false,
-                "title": ""
-              },
-              {
-                "tags": "Tanzania",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020825-1439522020-8-5-14-41-56.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/RQgHGkFEcYc",
-                "image": "@PROJECT_PATH@/assets/images/siti-the-band11-1.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/siti-the-band11-1-800x450.jpeg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Siti &amp; The Band - Tanzania",
-                "active": true,
                 "title": ""
               },
               {
@@ -11426,6 +11379,19 @@
                 "title": ""
               },
               {
+                "tags": "Zimbabwe",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
+                "playVideo": false,
+                "videoUrl": "https://youtu.be/5dBrUupkBVg",
+                "image": "@PROJECT_PATH@/assets/images/nobuntu-1.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/nobuntu-1-800x450.jpeg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Nobuntu - Zimbabwe",
+                "active": false,
+                "title": ""
+              },
+              {
                 "tags": "Mauritania",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
                 "playVideo": false,
@@ -11504,6 +11470,19 @@
                 "title": ""
               },
               {
+                "tags": "Tanzania",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
+                "playVideo": false,
+                "videoUrl": "https://youtu.be/5dBrUupkBVg",
+                "image": "@PROJECT_PATH@/assets/images/siti-the-band11-1.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/siti-the-band11-1-800x450.jpeg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Siti &amp; The Band - Tanzania",
+                "active": false,
+                "title": ""
+              },
+              {
                 "tags": "Mali",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
                 "playVideo": false,
@@ -11565,7 +11544,7 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Carlou D - Senegal",
-                "active": false,
+                "active": true,
                 "title": ""
               }
             ]
@@ -11857,7 +11836,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/10.jpg",
-        "order": 3
+        "order": 2
       },
       "components": [
         {
@@ -14136,7 +14115,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/10.jpg",
-        "order": 2
+        "order": 1
       },
       "components": [
         {
