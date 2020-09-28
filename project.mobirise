@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SOULIDARITY-V8-translation-ready",
-    "currentPage": "index.html",
+    "currentPage": "the-artists.html",
     "theme": {
       "name": "modernm4",
       "title": "ModernM4",
@@ -11180,7 +11180,7 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Nobuntu - Zimbabwe",
-                "active": true,
+                "active": false,
                 "title": ""
               },
               {
@@ -11253,8 +11253,8 @@
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
                 "playVideo": false,
                 "videoUrl": "https://youtu.be/5dBrUupkBVg",
-                "image": "@PROJECT_PATH@/assets/images/coming-soon-3.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/coming-soon-3-400x225.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/felipe-juarez-press-photo-i-erwan-rogard-1.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/felipe-juarez-press-photo-i-erwan-rogard-1-800x450.jpeg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Dag Tenere - Niger",
@@ -11279,8 +11279,8 @@
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
                 "playVideo": false,
                 "videoUrl": "https://youtu.be/5dBrUupkBVg",
-                "image": "@PROJECT_PATH@/assets/images/coming-soon-3.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/coming-soon-3-400x225.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-231.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-231-800x450.jpeg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Fendika/Ethiocolor - Ethiopia",
@@ -11544,6 +11544,32 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Carlou D - Senegal",
+                "active": false,
+                "title": ""
+              },
+              {
+                "tags": "Mali",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
+                "playVideo": false,
+                "videoUrl": "https://youtu.be/5dBrUupkBVg",
+                "image": "@PROJECT_PATH@/assets/images/coming-soon-3.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/coming-soon-3-400x225.jpeg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Habib Koité &amp; Bamada - Mali",
+                "active": true,
+                "title": ""
+              },
+              {
+                "tags": "Togo",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
+                "playVideo": false,
+                "videoUrl": "https://youtu.be/5dBrUupkBVg",
+                "image": "@PROJECT_PATH@/assets/images/coming-soon-3.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/coming-soon-3-400x225.jpeg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Ark'an Asrafokor - Togo",
                 "active": false,
                 "title": ""
               }
