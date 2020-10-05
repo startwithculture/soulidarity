@@ -114,7 +114,7 @@
                             <h2 class="mb-4 mbr-fonts-style mbr-section-title mbr-black display-1"><strong>THE MUSIC MUST GO ON!</strong></h2>
                             <h3 class="mbr-section-subtitle mbr-fonts-style mb-4 mbr-black display-7"><strong>#SOULIDARITY is a campaign for musicians from the African continent who lost all their income due to COVID-19. With #SOULIDARITY we make sure they can continue to make music.</strong></h3>
                             <p class="mb-4 mbr-fonts-style mbr-black display-7">Contributions are tax-deductible! More Info at<a href="faq.html" class="text-warning"> FAQ's.</a></p>
-                            <div class="mbr-section-btn"><a class="btn btn-md btn-bgr btn-success display-5" href="#" data-toggle="modal" data-target="#mbr-popup-9y">DONATE HERE&nbsp;</a></div>
+                            <div class="mbr-section-btn"><a class="btn btn-md btn-bgr btn-success display-5" href="#" data-toggle="modal" data-target="#mbr-popup-9y"><span class="fa fa-paypal mbr-iconfont mbr-iconfont-btn"></span>DONATE HERE&nbsp;</a></div>
                         </div>
                     </div>
                 </div>
@@ -147,26 +147,11 @@
 
 
   <div class="dds-widget-container"></div>
- <script>
- window.rnw.tamaro.runWidget('.rnw-widget-container', {
- language: 'de',
-amounts: [
-    {
-      "if": "currency() == usd",
-      "then": [5,10,50,100],
-    },
-    {
-      "if": "currency() == chf",
-      "then": [10,15,60,80],
-    },
-    {
-      "if": "currency() == eur",
-      "then": [15,20,80,100],
-    },
-  ],
-stored_customer_email_permission: 'true',
- })
-</script>
+  <script>
+    window.rnw.tamaro.runWidget('.dds-widget-container', {language: 'en'});
+      
+      
+  </script>
             
                     
                     
