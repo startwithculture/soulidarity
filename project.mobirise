@@ -90,7 +90,7 @@
     },
     "pwa-switcher": false,
     "uniqCompNum": 460,
-    "versionPublish": "5.0.29",
+    "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "PWA": {
       "enabled": false
@@ -11279,7 +11279,7 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Tu Nokwe - South Africa",
-                "active": true,
+                "active": false,
                 "title": ""
               },
               {
@@ -11296,6 +11296,32 @@
                 "title": ""
               },
               {
+                "tags": "Mozambique",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020918-173752020-9-0-17-38-21.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/jI0256p9CRc",
+                "image": "@PROJECT_PATH@/assets/images/tim-mckulka-milton-gulli-3.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/tim-mckulka-milton-gulli-3-800x450.jpeg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Milton Gulli - Mozambique",
+                "active": false,
+                "title": ""
+              },
+              {
+                "tags": "Nigeria",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020918-173752020-9-0-17-38-55.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/bVEinRisGBg",
+                "image": "@PROJECT_PATH@/assets/images/oluwatobi-victor-img-8514-as-smart-object-1-recovered-copy-1.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/oluwatobi-victor-img-8514-as-smart-object-1-recovered-copy-1-800x450.jpeg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Villy &amp; The Xtreme Volumes - Nigeria",
+                "active": false,
+                "title": ""
+              },
+              {
                 "tags": "Republic of the Congo",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
                 "playVideo": false,
@@ -11304,20 +11330,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/jupiter-et-okwess-yourilenquette-hd-4-800x450.jpeg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Jupiter &amp; Okwess - Republic of the Congo",
-                "active": false,
-                "title": ""
-              },
-              {
-                "tags": "Mozambique",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
-                "playVideo": false,
-                "videoUrl": "https://youtu.be/5dBrUupkBVg",
-                "image": "@PROJECT_PATH@/assets/images/tim-mckulka-milton-gulli-3.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/tim-mckulka-milton-gulli-3-800x450.jpeg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Milton Gulli - Mozambique",
+                "caption": "Jupiter &amp; Okwess - Democratic Republic of the Congo",
                 "active": false,
                 "title": ""
               },
@@ -11335,19 +11348,6 @@
                 "title": ""
               },
               {
-                "tags": "Nigeria",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
-                "playVideo": false,
-                "videoUrl": "https://youtu.be/5dBrUupkBVg",
-                "image": "@PROJECT_PATH@/assets/images/oluwatobi-victor-img-8514-as-smart-object-1-recovered-copy-1.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/oluwatobi-victor-img-8514-as-smart-object-1-recovered-copy-1-800x450.jpeg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Villy &amp; D xtreme Volumes - Nigeria",
-                "active": false,
-                "title": ""
-              },
-              {
                 "tags": "South Africa",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
                 "playVideo": false,
@@ -11357,6 +11357,45 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Afrika Mamas - South Africa",
+                "active": false,
+                "title": ""
+              },
+              {
+                "tags": "Ethiopia",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
+                "playVideo": false,
+                "videoUrl": "https://youtu.be/5dBrUupkBVg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-231.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-231-800x450.jpeg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Fendika/Ethiocolor - Ethiopia",
+                "active": false,
+                "title": ""
+              },
+              {
+                "tags": "Zimbabwe",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
+                "playVideo": false,
+                "videoUrl": "https://youtu.be/5dBrUupkBVg",
+                "image": "@PROJECT_PATH@/assets/images/mokoomba-foto-eric-van-nieuwland-sm-1.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/mokoomba-foto-eric-van-nieuwland-sm-1-800x449.jpeg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Mokoomba - Zimbabwe",
+                "active": false,
+                "title": ""
+              },
+              {
+                "tags": "Mali",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
+                "playVideo": false,
+                "videoUrl": "https://youtu.be/5dBrUupkBVg",
+                "image": "@PROJECT_PATH@/assets/images/27102018-744a7425.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/27102018-744a7425-800x450.jpeg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Habib Koité &amp; Bamada - Mali",
                 "active": false,
                 "title": ""
               },
@@ -11413,7 +11452,7 @@
                 "title": ""
               },
               {
-                "tags": "South Africa",
+                "tags": "Niger",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
                 "playVideo": false,
                 "videoUrl": "https://youtu.be/5dBrUupkBVg",
@@ -11421,21 +11460,8 @@
                 "thumb": "@PROJECT_PATH@/assets/images/coming-soon-3-400x225.jpeg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Dizu Plaatjies - South Africa",
-                "active": false,
-                "title": ""
-              },
-              {
-                "tags": "Ethiopia",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
-                "playVideo": false,
-                "videoUrl": "https://youtu.be/5dBrUupkBVg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-231.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-231-800x450.jpeg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Fendika/Ethiocolor - Ethiopia",
-                "active": false,
+                "caption": "Studio Shap Shap - Niger",
+                "active": true,
                 "title": ""
               },
               {
@@ -11448,19 +11474,6 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Fulu Miziki - Uganda",
-                "active": false,
-                "title": ""
-              },
-              {
-                "tags": "Mali",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
-                "playVideo": false,
-                "videoUrl": "https://youtu.be/5dBrUupkBVg",
-                "image": "@PROJECT_PATH@/assets/images/coming-soon-3.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/coming-soon-3-400x225.jpeg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Habib Koité &amp; Bamada - Mali",
                 "active": false,
                 "title": ""
               },
@@ -11487,19 +11500,6 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Majid Bekkas - Morocco",
-                "active": false,
-                "title": ""
-              },
-              {
-                "tags": "Zimbabwe",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020822-84472020-8-2-9-18-3.jpg",
-                "playVideo": false,
-                "videoUrl": "https://youtu.be/5dBrUupkBVg",
-                "image": "@PROJECT_PATH@/assets/images/mokoomba-foto-eric-van-nieuwland-sm-1.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/mokoomba-foto-eric-van-nieuwland-sm-1-800x449.jpeg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Mokoomba - Zimbabwe",
                 "active": false,
                 "title": ""
               },
