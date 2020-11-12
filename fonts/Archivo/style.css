@@ -1,0 +1,56 @@
+@font-face {
+   font-family: 'Archivo';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 500;
+   src: url('file:///C:/Users/Julia%20Kastl/work/soulidarity/fonts/Archivo/500.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Archivo';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///C:/Users/Julia%20Kastl/work/soulidarity/fonts/Archivo/600.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Archivo';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///C:/Users/Julia%20Kastl/work/soulidarity/fonts/Archivo/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Archivo';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///C:/Users/Julia%20Kastl/work/soulidarity/fonts/Archivo/regular.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Archivo';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///C:/Users/Julia%20Kastl/work/soulidarity/fonts/Archivo/italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Archivo';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 500;
+   src: url('file:///C:/Users/Julia%20Kastl/work/soulidarity/fonts/Archivo/500italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Archivo';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///C:/Users/Julia%20Kastl/work/soulidarity/fonts/Archivo/600italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Archivo';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///C:/Users/Julia%20Kastl/work/soulidarity/fonts/Archivo/700italic.ttf') format('truetype');
+}
