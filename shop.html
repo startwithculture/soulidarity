@@ -6,15 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
   <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:image:src" content="assets/images/application-meta.jpg">
-  <meta property="og:image" content="assets/images/application-meta.jpg">
-  <meta name="twitter:title" content="Artist Information">
+  <meta name="twitter:image:src" content="">
+  <meta property="og:image" content="">
+  <meta name="twitter:title" content="SHOP">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/soulidarity-hand-yellow-2.png" type="image/x-icon">
   <meta name="description" content="">
   
   
-  <title>Artist Information</title>
+  <title>SHOP</title>
   <link rel="stylesheet" href="assets/FontAwesome/css/font-awesome.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -34,7 +34,154 @@
   
   
   
-  
+  <div id='collection-component-1642336046076'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'delicious-tunes.myshopify.com',
+      storefrontAccessToken: 'ec52804e1ea6c79869b6c9d7a1effc69',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '237904593048',
+        node: document.getElementById('collection-component-1642336046076'),
+        moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px",
+          "width": "calc(25% - 20px)"
+        },
+        "img": {
+          "height": "calc(100% - 50px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "20"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(90% + 50px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "button": {
+        ":hover": {
+          "background-color": "#57ded8"
+        },
+        "background-color": "#61f7f0",
+        ":focus": {
+          "background-color": "#57ded8"
+        }
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        ":hover": {
+          "background-color": "#57ded8"
+        },
+        "background-color": "#61f7f0",
+        ":focus": {
+          "background-color": "#57ded8"
+        }
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        ":hover": {
+          "background-color": "#57ded8"
+        },
+        "background-color": "#61f7f0",
+        ":focus": {
+          "background-color": "#57ded8"
+        }
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#61f7f0",
+        ":hover": {
+          "background-color": "#57ded8"
+        },
+        ":focus": {
+          "background-color": "#57ded8"
+        }
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
 
 </head>
 <body>
@@ -56,7 +203,7 @@
 
 
   
-  <section class="menu1 cid-sRQTLMv4iC" once="menu" id="menu1-en">
+  <section class="menu1 cid-sUGnaHs1JB" once="menu" id="menu1-fm">
 
     
     
@@ -101,66 +248,26 @@
     </div></nav>
 </section>
 
-<section class="extAccordion cid-sRQTLMLTul" id="extAccordion1-eo">
+<section class="subscribe1 cid-sUGnaHNQCr" id="subscribe1-fo">
 
     
 
     
-        <div class="container">
-            <div class="media-container-row">
-                <div class="col-12 col-md-12">
-                    <div class="section-head text-center space30">
-                       <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">ARTIST INFORMATION</h2>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div id="bootstrap-toggle" class="toggle-panel accordionStyles tab-content">
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingOne">
-                                <a role="button" class="collapsed panel-title" data-toggle="collapse" data-core="" href="#collapse1_121" aria-expanded="false" aria-controls="collapse1">
-                                    <h4 class="mbr-fonts-style display-4"><strong>What is the #SOULIDARITY campaign 2020?&nbsp;</strong></h4>
-                                </a>
-                            </div>
-                            <div id="collapse1_121" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    <p class="mbr-fonts-style mbr-text panel-text display-4">With the outbreak of the Coronavirus pandemic in spring 2020, the need to urgently draw attention to the economic plight of African touring musicians arose. The musicians were hit particularly hard by the shutdown of the cultural industry and travel restrictions. In response, an idea was born to start #SOULIDARITY , a fundraising campaign that would give financial relief directly to affected musicians so they can continue to do their work.<br>The initiators Stephanie Schuman, Julia Kastl and Marcus Gora founded a non-profit company START WITH CULTURE gUG based in Germany and developed the concept for the #SOULIDARITY fund and campaign in May 2020. That same month, the #SOULIDARITY website was ready to accept applications. In June, the notarial registration of START WITH CULTURE gUG was completed while the non-profit status clearance from the German tax office was approved in September 2020.The target of the #SOULIDARITY relief fund was to be able to give all eligible applicants a one-time relief payment of between 1000 and 4500€ estimated from potential income lost from cancelled tours. The artists selected for the fund created video content for the campaign, documenting their personal stories about how the Covid-19 crisis affected their careers, livelihoods, communities and their countries.<br><br>START WITH CULTURE provided the editing for all the video footage and branded it for the #SOULIDARITY campaign. The campaign was rolled out digitally on the Start With Culture website and on the organisation’s as well as the participating applicants and other partner social media channels between the 15th of September and the 31st of December 2020. For this effort, START WITH CULTURE gUG provided its manpower, network, as well as Public Relations and marketing machinery. <br>Over 188 musicians from 18 different African countries applied via the #SOULIDARITY website. With its reach the #SOULIDARITY campaign has created a movement that brings together musicians from across the African continent to support one another; give each other advice, engineer solutions and collaborate. <br><br>Lastly, the #SOULIDARITY campaign has also become a visible platform that is drawing attention to the artists` stories and the dire situation artists continue to face as the pandemic rages on.<br><br></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingTwo">
-                                <a role="button" class="collapsed panel-title" data-toggle="collapse" data-core="" href="#collapse2_121" aria-expanded="false" aria-controls="collapse2">
-                                    <h4 class="mbr-fonts-style display-4"><strong>#SOULIDARITY 2022!</strong></h4>
-                                </a>
 
-                            </div>
-                            <div id="collapse2_121" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                    <p class="mbr-fonts-style mbr-text panel-text display-4"><strong>What's Next?!&nbsp;<br></strong>#SOULIDARITY became a  platform and a movement and we want to continue with our funding campaign for international touring artists from Africa therefore we want  to create an even stronger and bigger network of festivals, venues, media partners, organizations and artists.<br><br><strong>What are we doing with the collected money?<br></strong>All donations are going to the START WITH CULTURE&nbsp;<strong><a href="https://start-with-culture.org/funding.html" class="text-success" target="_blank">CONTENT &amp; MOBILITY FUND</a></strong><br>With those funds the artists are able to produce content to stay relevant and/or travel to showcase festivals to get visibility back. The donations we collect on our platform #SOULIDARITY will be distributed to those artists who are eligible. They will need to not only present the final product, but they should also let us know about the production - tell their stories, like we already did on our website.<br></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingThree">
-                                <a role="button" class="collapsed panel-title" data-toggle="collapse" data-core="" href="#collapse3_121" aria-expanded="false" aria-controls="collapse3">
-                                    <h4 class="mbr-fonts-style display-4"><strong>YOU WANT TO JOIN THE MOVEMENT</strong></h4>
-                                </a>
-                            </div>
-                            <div id="collapse3_121" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">
-                                    <p class="mbr-fonts-style mbr-text panel-text display-4">Call for Artists Applications are closed, but if you are interested in joining the campaign - <a href="mailto:contact@start-with-culture.org" class="text-success">get in touch</a> and we will let you know how you can participate.<br><br></p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        
-                    </div>
-                </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="title__block col-lg-12">
+               <h2 class="mbr-section-title mbr-fonts-style display-2">With your help, the music will go on!<span class="verline"></span></h2>
+              
+                <div class="mbr-section-btn"><a class="btn btn-lg btn-primary display-7" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G47Z5QYM54GFC&source=url" target="_blank"><span class="fa fa-paypal mbr-iconfont mbr-iconfont-btn"></span>DONATE WITH PAYPAL&nbsp;</a></div>
             </div>
         </div>
+        
+    </div>
 </section>
 
-<section class="extFooter cid-sRQTLNposU" id="extFooter2-er">
+<section class="extFooter cid-sUGnaHURZV" id="extFooter2-fp">
     
 
     
@@ -217,13 +324,13 @@
                         </div>
                         <div class="dragArea row">
                             <div class="form-group col" data-for="email">
-                                <input type="text" name="email" placeholder="E-mail" data-form-field="E-mail" required="required" class="form-control display-7" id="email-extFooter2-er">
+                                <input type="text" name="email" placeholder="E-mail" data-form-field="E-mail" required="required" class="form-control display-7" id="email-extFooter2-fp">
                             </div>
                             <div class="col-auto mbr-section-btn"><button type="submit" class="btn btn-lg btn-primary display-4">SUBSCRIBE</button></div>
                         </div>
                     <span class="gdpr-block">
 <label>
-<span class="textGDPR display-7" style="color: #a7a7a7"><input type="checkbox" name="gdpr" id="gdpr-extFooter2-er" required="">By continuing you agree to our <a style="color: #1a1a1a; text-decoration: underline;" href="terms.html">Terms &amp; Conditions</a> and <a style="color: #1a1a1a; text-decoration: underline;" href="policy.html">Privacy Policy</a>.</span>
+<span class="textGDPR display-7" style="color: #a7a7a7"><input type="checkbox" name="gdpr" id="gdpr-extFooter2-fp" required="">By continuing you agree to our <a style="color: #1a1a1a; text-decoration: underline;" href="terms.html">Terms &amp; Conditions</a> and <a style="color: #1a1a1a; text-decoration: underline;" href="policy.html">Privacy Policy</a>.</span>
 </label>
 </span></form><!---Formbuilder Form--->
                 </div>
@@ -244,7 +351,6 @@
   <script src="assets/dropdown/js/nav-dropdown.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
   
